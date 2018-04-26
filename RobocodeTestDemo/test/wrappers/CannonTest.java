@@ -1,4 +1,4 @@
-package testdriving;
+package wrappers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -13,7 +13,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import robocode.Robot;
-import testdriving.Cannon;
+import wrappers.Cannon;
 
 public class CannonTest {
 	@Mock Robot robot;

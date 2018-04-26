@@ -1,4 +1,4 @@
-package testdriving;
+package wrappers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.equalTo;
 import org.junit.Before;
 import org.junit.Test;
 
-import testdriving.TargetAcquisition;
+import wrappers.TargetAcquisition;
 
 public class TargetAcquisitionTest {
 		

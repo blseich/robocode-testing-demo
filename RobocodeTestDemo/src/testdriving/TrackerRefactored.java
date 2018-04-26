@@ -14,6 +14,11 @@ import robocode.HitRobotEvent;
 import robocode.Robot;
 import robocode.ScannedRobotEvent;
 import robocode.WinEvent;
+import wrappers.Aimer;
+import wrappers.Cannon;
+import wrappers.Motor;
+import wrappers.Radar;
+import wrappers.TargetAcquisition;
 
 
 /**

@@ -1,4 +1,4 @@
-package testdriving;
+package wrappers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -15,7 +15,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import robocode.Robot;
-import testdriving.Aimer;
+import wrappers.Aimer;
 
 public class AimerTest {
 

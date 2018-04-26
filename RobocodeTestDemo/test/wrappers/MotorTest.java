@@ -1,4 +1,4 @@
-package testdriving;
+package wrappers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -14,7 +14,7 @@ import org.mockito.Captor;
 import org.mockito.Mock;
 
 import robocode.Robot;
-import testdriving.Motor;
+import wrappers.Motor;
 
 public class MotorTest {
 	private static final double TARGET_BEARING = 120.0;

@@ -19,12 +19,12 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import robocode.HitRobotEvent;
 import robocode.ScannedRobotEvent;
-import testdriving.Aimer;
-import testdriving.Cannon;
-import testdriving.Motor;
-import testdriving.Radar;
-import testdriving.TargetAcquisition;
 import testdriving.TrackerRefactored;
+import wrappers.Aimer;
+import wrappers.Cannon;
+import wrappers.Motor;
+import wrappers.Radar;
+import wrappers.TargetAcquisition;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TrackerRefactoredTest {
