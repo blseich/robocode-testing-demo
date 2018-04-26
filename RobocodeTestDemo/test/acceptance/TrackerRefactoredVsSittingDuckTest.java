@@ -26,7 +26,7 @@ public class TrackerRefactoredVsSittingDuckTest extends RobotTestBed {
 		String robotName = trackerRefactored.getTeamLeaderName();
 		System.out.println(robotName + " firsts = " + trackerRefactored.getFirsts());
 		MatcherAssert.assertThat(robotName, Matchers.equalTo("testdriving.TrackerRefactored*"));
-		MatcherAssert.assertThat(trackerRefactored.getFirsts(), Matchers.greaterThan(50));
+		MatcherAssert.assertThat(trackerRefactored.getFirsts(), Matchers.equalTo(100));
 	}
 	
 }
