@@ -7,7 +7,7 @@ import robocode.BattleResults;
 import robocode.control.events.BattleCompletedEvent;
 
 
-public class TargetVsTargetTest extends RobotTestBed {	
+public class TrackerRefactoredVsSittingDuckTest extends RobotTestBed {	
 	
 	@Override
 	public String getRobotNames() {
